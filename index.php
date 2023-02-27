@@ -14,6 +14,10 @@
 
         //stampo il contenuto della variabile
         echo $testo;
+
+        for($i=0; $i<10; $i++){
+            echo $testo;
+        }
     ?>
 </body>
 </html>
