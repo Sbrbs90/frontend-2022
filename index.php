@@ -7,9 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    ciao
+    
     <?php
-        echo "ciao mondo";
+        //assegno un valore alla variabile
+        $testo = "ciao mondo!";
+
+        //stampo il contenuto della variabile
+        echo $testo;
     ?>
 </body>
 </html>
