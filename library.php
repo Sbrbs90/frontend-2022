@@ -29,13 +29,16 @@ function valore_assoluto($numero)
     return $risultato;
 }
 
-//scrivere una funzione che accetti due argomenti (un numero e una stringa) e stampa la stringa tante volte quanto indicato dal numero, andando a capo dopo ogni stampa
+//ESERCIZIO: scrivere una funzione che accetti due argomenti (un numero e una stringa) e stampa la stringa tante volte quanto indicato dal numero, andando a capo dopo ogni stampa
 function stampa_stringa($numero, $stringa)
 {
-
-    for ($i = 0; $i <= $numero; $i++) {
+    echo "<p>"; //ESERCIZIO2:modificare la funzione precedente per racchiudere l'output all'interno di un <p>
+    for ($i = 0; $i < $numero; $i++) {
         echo $stringa . "<br>";
     }
+    echo "</p>";
 }
+
+
 
 ?>

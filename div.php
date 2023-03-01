@@ -25,7 +25,7 @@
     }
 
 
-    stampa_stringa(5 , "ciao");
+    stampa_stringa(5 , "ciao"); // solo le stringhe vanno tra "", numeri bool no.
 
     ?>
 </body>
