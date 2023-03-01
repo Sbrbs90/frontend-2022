@@ -12,12 +12,18 @@
         $valore= -5;
         echo "il valore assoluto di" . $valore;
         $valore = valore_assoluto($valore);
-        echo " é " . $valore;
+        echo " é " . $valore. "<br>";
+
+        //assegno valore alla veriabile
+        $nuovo_valore = 7;
+        $valore = valore_assoluto($nuovo_valore);
+        echo " é " . $valore ;
     ?>
 </body>
 </html>
 
 <?php
+
     function valore_assoluto($numero){
         //se il valore è negativo, lo moltiplico per -1.
         //altrimenti lo restituisco senza modificarlo
