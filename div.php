@@ -23,6 +23,10 @@
     for ($i = 0; $i <= 20; $i += 2) {
         stampa_div("", $i); //non abbiamo dato una classe al <div> quindi mettiamo solo la variabile del contenuto
     }
+
+
+    stampa_stringa(5 , "ciao");
+
     ?>
 </body>
 
