@@ -27,6 +27,12 @@
 
     stampa_stringa(5 , "ciao"); // solo le stringhe vanno tra "", numeri bool no.
 
+    somma(5, 10);
+
+    massimo(100, 150);
+
+    stampa_immagine("test.jpg", "round", "img01");
+
     ?>
 </body>
 

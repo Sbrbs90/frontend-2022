@@ -39,6 +39,30 @@ function stampa_stringa($numero, $stringa)
     echo "</p>";
 }
 
+//--------------------------------------------------------------------------------//
+
+ //esercizio 1
+ function somma($a, $b){
+    $c = $a + $b;
+     echo $c . "<br>";
+ };
+
+ //esercizio 2
+ function massimo($num1, $num2){
+     if($num1 > $num2){
+         echo $num1 . "<br>";
+     }else{
+         echo $num2 . "<br>";
+     }
+ }
+
+ //esercizio 3
+ function stampa_immagine($nome, $classe, $id){
+     echo "<img src= " . $nome . " " . "class= " . $classe . " " . "id = " . $id . ">";
+ }
+
+ 
+
 
 
 ?>

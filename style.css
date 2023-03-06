@@ -1,0 +1,11 @@
+.evidente{
+    border: 1px solid black;
+    background-color: blue;
+    color: black;
+}
+
+.alternata{
+    border: 1px solid darkgreen;
+    background-color: orange;
+    color: blue;
+}
