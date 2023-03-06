@@ -33,6 +33,10 @@
 
     stampa_immagine("test.jpg", "round", "img01");
 
+    crea_div("ciao mondo", 20, "evidente");
+
+    nuovo_div("ciao mondo", 20, "evidente", "alternata");
+
     ?>
 </body>
 

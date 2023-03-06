@@ -9,34 +9,20 @@
 </head>
 <body>
     <?php
+        $classe = ["giallo", "verde", "blu"];
+        $contenuto = ["cont1", "cont2", "cont3"];
 
-    /*function crea_div($testo, $numero_div, $classe){
-        for($i = 0; $i < $numero_div; $i++){
-            echo "<div class= '" . $classe ."'"; 
-            echo ">"; 
-            echo $testo;
-            echo "</div>";
-        }  
-    }
-    crea_div("ciao mondo", 20, "evidente");*/
+        function stampa_doppio_array($classe, $contenuto){
+        
 
-    function nuovo_div($testo, $numero_div, $classe, $classe2){
-        for($i = 0; $i < $numero_div; $i++){
-            if($i % 2 != 0){
-                echo "<div class= '" . $classe2 ."'"; 
-                echo ">"; 
-                echo $testo;
-                echo "</div>";
-            }else{
-                echo "<div class= '" . $classe ."'"; 
-                echo ">"; 
-                echo $testo;
-                echo "</div>";
+            for ($i = 0; $i < count($classe); $i ++){
+                echo "<div class= '" . $classe[$i] ."'" .">";
+                echo $contenuto[$i];
+                echo "</div>";       
             }
-        }  
-    }
-    nuovo_div("ciao mondo", 20, "evidente", "alternata");
+        }
 
+        stampa_doppio_array($classe, $contenuto);
     ?>
 </body>
 </html>

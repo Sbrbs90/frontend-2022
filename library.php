@@ -61,7 +61,31 @@ function stampa_stringa($numero, $stringa)
      echo "<img src= " . $nome . " " . "class= " . $classe . " " . "id = " . $id . ">";
  }
 
- 
+ //-------------------------------------------------------------------//
+  function crea_div($testo, $numero_div, $classe){
+        for($i = 0; $i < $numero_div; $i++){
+            echo "<div class= '" . $classe ."'"; 
+            echo ">"; 
+            echo $testo;
+            echo "</div>";
+        }  
+    }
+
+    function nuovo_div($testo, $numero_div, $classe, $classe2){
+        for($i = 0; $i < $numero_div; $i++){
+            if($i % 2 != 0){
+                echo "<div class= '" . $classe2 ."'"; 
+                echo ">"; 
+                echo $testo;
+                echo "</div>";
+            }else{
+                
+                echo ">";  echo "<div class= '" . $classe ."'";
+                echo $testo;
+                echo "</div>";
+            }
+        }  
+    }
 
 
 
