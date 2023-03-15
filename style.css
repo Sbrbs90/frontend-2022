@@ -9,3 +9,23 @@
     background-color: orange;
     color: blue;
 }
+
+
+.div{
+    background-color: lightsalmon;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}   
+
+.blu{
+    background-color: lightskyblue;
+}
+
+.green{
+    background-color: rgb(91, 141, 91);
+}
+
+.red{
+    background-color: rgb(187, 60, 60);
+}
