@@ -26,6 +26,11 @@
     background-color: rgb(91, 141, 91);
 }
 
-.red{
-    background-color: rgb(187, 60, 60);
-}
+.red {
+    color: red;
+  }
+  
+  .box {
+    background-color: yellow;
+  }
+  
