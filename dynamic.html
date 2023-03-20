@@ -8,6 +8,10 @@
     <title>Document</title>
 
     <style>
+        body {
+            font-family: monospace;
+        }
+
         #trigger {
             border: none;
             background-color: lightcoral;
@@ -19,7 +23,7 @@
         .importante,
         #secondo-div {
             width: 200px;
-            height: 200px;
+            padding: 2rem;
             text-align: center;
             font-size: 1.5rem;
             margin-top: 1rem;
@@ -29,15 +33,74 @@
             background-color: blueviolet;
             color: white;
         }
+
+        .flex{
+            display: flex;
+            gap:2rem;
+            margin-bottom: 2rem;
+        }
+
+        .flex div{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+
+        .content{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin-bottom: 1rem;
+        }
+
+        .container{
+            width: 100%;
+        }
+
+        .centrale{
+           margin: 0 auto 1rem;
+        }
+
+        .destra{
+            float: right;
+            clear: both;
+        }
+
+        .sinistra{
+            float: left;
+            clear: both;
+        }
     </style>
 
 </head>
 
 <body>
+    <!--primo esercizio-->
     <div id="target"></div>
     <button id="trigger" onclick="cliccami()">Cliccami</button>
     <div id="primo-div" class="importante"></div>
     <div id="secondo-div" class="importante"></div>
+
+    <!--secondo esercizio-->
+    <div class="flex">
+        <div id="left" onmouseover="sinistra()">left</div>
+        <div id="middle" onmouseover="centro()">middle</div>
+        <div id="right"  onmouseover="destra()">right</div>
+    </div>
+
+        <div class="container">
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+            <div class="content"></div>
+        </div>
+    
 </body>
 <script src="dynamic.js"></script>
 

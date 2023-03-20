@@ -12,7 +12,7 @@ function js() {
     mio_div.appendChild(nuovo_elem);
 }
 
-function cliccami() {
+function cliccami() {       //puoi risolverla anche aggiungendo e rimuovendo la classe .blu
     let btn = document.getElementById("trigger");
     btn.innerText = "mi hai cliccato";
 
@@ -31,4 +31,34 @@ function cliccami() {
     let secondo_div = document.getElementById("secondo-div");
     secondo.innerText = "secondo div";
     secondo_div.appendChild(secondo);
+}
+
+//esercizio2
+
+function centro() {
+    let colore = document.getElementsByClassName("content");
+    for (i = 0; i < colore.length; i++) {
+        colore[i].classList.add("centrale");
+        colore[i].classList.remove("destra");
+        colore[i].classList.remove("sinistra");
+
+    }
+}
+
+function destra() {
+    let colore = document.getElementsByClassName("content");
+    for (i = 0; i < colore.length; i++) {
+        colore[i].classList.add("destra");
+        colore[i].classList.remove("centrale");
+        colore[i].classList.remove("sinistra");
+    }
+}
+
+function sinistra() {
+    let colore = document.getElementsByClassName("content");
+    for (i = 0; i < colore.length; i++) {
+        colore[i].classList.add("sinistra");
+        colore[i].classList.remove("destra");
+        colore[i].classList.remove("centrale");
+    }
 }
