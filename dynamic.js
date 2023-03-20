@@ -15,21 +15,20 @@ function js() {
 function cliccami() {
     let btn = document.getElementById("trigger");
     btn.innerText = "mi hai cliccato";
-    
-    let nuovo_parag = document.createElement("p");
-    let primo_div = document.getElementsByClassName("importante");
-    for (i = 0; i < primo_div.length; i++) {
-        nuovo_parag.innerText = "primo div!";
-        primo_div[i].appendChild(nuovo_parag);
-        primo_div[i].style.backgroundColor = "blue";
-        primo_div[i].style.color = "white";
+
+    let color = document.getElementsByClassName("importante");
+    for (i = 0; i < color.length; i++) {
+        color[i].style.backgroundColor = "blue";
+        color[i].style.color = "white";
     }
+
+    let primo = document.createElement("p");
+    let primo_div = document.getElementById("primo-div");
+    primo.innerText = "primo div";
+    primo_div.appendChild(primo);
 
     let secondo = document.createElement("p");
     let secondo_div = document.getElementById("secondo-div");
     secondo.innerText = "secondo div";
     secondo_div.appendChild(secondo);
-    secondo_div.style.backgroundColor = "blue";
-    secondo_div.style.color = "coral";
-
 }

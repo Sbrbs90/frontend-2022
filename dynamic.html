@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
     <title>Document</title>
 
     <style>
-        #trigger{
+        #trigger {
             border: none;
             background-color: lightcoral;
             color: black;
@@ -15,26 +16,29 @@
             border-radius: 8px;
         }
 
-        .importante, #secondo-div{
+        .importante,
+        #secondo-div {
             width: 200px;
             height: 200px;
             text-align: center;
             font-size: 1.5rem;
-            
+            margin-top: 1rem;
         }
 
-        #btn:hover{
+        #btn:hover {
             background-color: blueviolet;
             color: white;
         }
     </style>
 
 </head>
+
 <body>
     <div id="target"></div>
     <button id="trigger" onclick="cliccami()">Cliccami</button>
-    <div class="importante"></div>
-    <div id="secondo-div"></div>
+    <div id="primo-div" class="importante"></div>
+    <div id="secondo-div" class="importante"></div>
 </body>
 <script src="dynamic.js"></script>
+
 </html>
